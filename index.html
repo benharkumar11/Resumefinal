@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Ben</title>
+    <link  
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="flex1.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Benhar Kumar</h1>
+            <p>Full Stack Developer</p>
+        </header>
+        <div class="content">
+            <!-- Left Column -->
+            <div class="left-column">
+                <section class="contact">
+                    <h2>Contact</h2>
+                    <ul>
+                        <li>+1 513-302-5059</li>
+                        <li>Ben@email.com</li>
+                        <li>Ohio, Cincinnati</li>
+                        <li>www.ben.com</li>
+                    </ul>
+                </section>
+
+                <section class="education">
+                    <h2>Education</h2>
+                    <p>
+                        <strong>2017 - 2021</strong> <br />
+                        Bachelors in Electronics and Communication <br />
+                        Anits college
+                    </p>
+                </section>
+
+                <section class="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Web development</li>
+                        <li>Project management</li>
+                        <li>Digital Marketing</li>
+                        <li>Data Analysis</li>
+                    </ul>
+                </section>
+
+                <section class="languages">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>English</li>
+                        <li>Telugu</li>
+                    </ul>
+                </section>
+            </div>
+
+            <!-- Right Column -->
+            <div class="right-column">
+                <section class="profile-summary">
+                    <h2>Profile Summary</h2>
+                    <p>
+                        Full Stack Developer with a passion for creating dynamic and
+                        responsive web applications. Proficient in both front-end and
+                        back-end technologies including JavaScript, React, Node.js,
+                        Express, and MongoDB. Adept at building scalable, efficient, and
+                        user-friendly solutions.
+                    </p>
+                </section>
+
+                <section class="work-experience">
+                    <h2>Work Experience</h2>
+                    <div class="job">
+                        <h3>Web Developer</h3>
+                        <p><strong>2020 - 2022</strong></p>
+                        <p>Accenture</p>
+                        <ul>
+                            <li>
+                                Developed and executed digital marketing strategies leading to
+                                a 15% growth in organic website traffic.
+                            </li>
+                            <li>
+                                Collaborated with the content team to create SEO-optimized
+                                content, increasing search engine rankings.
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Form Section at the Bottom -->
+                <section class="contact-form">
+                    <h2>Contact me</h2>
+                    <form>
+                        <!-- Name -->
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <!-- Username -->
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+
+                        <!-- Email -->
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <!-- Password -->
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+
+                        <!-- Confirm Password -->
+                        <label for="confirm_password">Confirm Password:</label>
+                        <input type="password" id="confirm_password" name="confirm_password" required>
+
+                        <!-- Country Code and Phone Number -->
+                        <label for="country_code">Country Code:</label>
+                        <select id="country_code" name="country_code" required>
+                            <option value="+1">+1 (USA)</option>
+                            <option value="+44">+44 (UK)</option>
+                            <option value="+91">+91 (India)</option>
+                        </select>
+
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+
+                        <!-- Date of Birth -->
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" id="dob" name="dob" max="2004-11-03" required>
+
+                        <!-- Gender -->
+                        <label>Gender:</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="gender" value="Male" required> Male</label>
+                            <label><input type="radio" name="gender" value="Female"> Female</label>
+                            <label><input type="radio" name="gender" value="Prefer not to say"> Prefer not to say</label>
+                        </div>
+
+                        <!-- Hobbies -->
+                        <label>Hobbies:</label>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="hobby_reading" value="Reading"> Reading</label>
+                            <label><input type="checkbox" name="hobby_sports" value="Sports"> Sports</label>
+                            <label><input type="checkbox" name="hobby_music" value="Music"> Music</label>
+                            <label><input type="checkbox" name="hobby_traveling" value="Traveling"> Traveling</label>
+                        </div>
+
+                        <!-- Upload Button -->
+                        <label for="profile_picture">Upload Profile Picture:</label>
+                        <input type="file" id="profile_picture" name="profile_picture" accept="image/*">
+
+                        <!-- Message Box -->
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Write a message..."></textarea>
+
+                        <!-- Submit Button -->
+                        <button type="submit">submit</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
